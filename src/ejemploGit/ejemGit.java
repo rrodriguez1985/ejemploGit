@@ -18,10 +18,10 @@ public class ejemGit {
 		resta = aa - bb;
 		producto = aa * bb;
 		division = aa / bb;
-		JOptionPane.showMessageDialog(null,"El resultado de la suma es: " + suma);
-		JOptionPane.showMessageDialog(null,"El resultado de la resta es: " + resta);
-		JOptionPane.showMessageDialog(null,"El resultado del producto es: " + producto);
-		JOptionPane.showMessageDialog(null,"El resultado de la division es: " + division);
+		JOptionPane.showMessageDialog(null,"El resultado de la suma de los datos introducidos es: " + suma);
+		JOptionPane.showMessageDialog(null,"El resultado de la resta de los datos introducidos es: " + resta);
+		JOptionPane.showMessageDialog(null,"El resultado del producto de los datos introducidos es: " + producto);
+		JOptionPane.showMessageDialog(null,"El resultado de la division de los datos introducidos es: " + division);
 	}
 
 }
