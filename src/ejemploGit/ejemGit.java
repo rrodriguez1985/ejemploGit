@@ -13,11 +13,15 @@ public class ejemGit {
 		float aa, bb;
 		aa = Float.parseFloat(num1);
 		bb = Float.parseFloat(num2);
-		float suma, resta;
+		float suma, resta, producto, division;
 		suma = aa + bb;
 		resta = aa - bb;
+		producto = aa * bb;
+		division = aa / bb;
 		JOptionPane.showMessageDialog(null,"El resultado de la suma es: " + suma);
 		JOptionPane.showMessageDialog(null,"El resultado de la resta es: " + resta);
+		JOptionPane.showMessageDialog(null,"El resultado del producto es: " + producto);
+		JOptionPane.showMessageDialog(null,"El resultado de la division es: " + division);
 	}
 
 }
